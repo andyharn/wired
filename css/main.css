@@ -4,6 +4,7 @@
 /* ==========================================================================
 
    ========================================================================== */
+
 .container {
   margin:0 auto 0 auto;
   padding: 0 15px 0 15px;
@@ -15,6 +16,7 @@ header {
   color:white;
   line-height: 1;
   padding:3em 0 3em 0;
+  margin-bottom:1em;
 
 }
 
@@ -82,10 +84,14 @@ aside {
 h2 {
   font-size:2em;
   text-transform:uppercase;
+  padding:0em;
+  margin:0em;
 }
 
 h3 {
   font-size: 1em;
+  padding:0em;
+  margin:0em;
 }
 
 /* ==========================================================================
