@@ -29,7 +29,8 @@ header h1 {
 }
 
 .mainpage {
-  width:70%;
+  width:80%;
+  float:left;
 }
 
 .mainsection::after{
@@ -43,9 +44,37 @@ header h1 {
   background-color:blue;
 }
 
+.mainpageleft {
+  width:49%;
+  float:left;
+}
+
 .socialsection {
-  width:50%;
+  width:100%;
   background-color:red;
+}
+
+.tabletsection {
+  width:100%;
+  background-color:green;
+}
+
+.mainpageright {
+  width:49%;
+  float:left;
+  margin-left: 2%;
+}
+
+.websection {
+  width:100%;
+  background-color:brown;
+}
+
+aside {
+  width: 18%;
+  float:left;
+  background-color: pink;
+  margin-left:2%;
 }
 /* ==========================================================================
 
