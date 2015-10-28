@@ -5,10 +5,22 @@
 
    ========================================================================== */
 
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
 .container {
   margin:0 auto 0 auto;
   padding: 0 15px 0 15px;
   width:90%;
+  box-sizing: border-box;
+}
+
+.container::after{
+  display: table;
+  content:"";
+  clear:both;
 }
 
 header {
@@ -17,7 +29,6 @@ header {
   line-height: 1;
   padding:3em 0 3em 0;
   margin-bottom:1em;
-
 }
 
 header h1 {
@@ -43,9 +54,24 @@ header h1 {
 
 .videosection {
   width:100%;
-  background-color:blue;
+  background-color:;
 }
 
+.videoimg {
+  float:left;
+  width:70%;
+}
+
+.videocontent{
+float:left;
+width:30%;
+}
+
+.videosection::after{
+  display: table;
+  content:"";
+  clear:both;
+}
 .mainpageleft {
   width:49%;
   float:left;
@@ -53,12 +79,12 @@ header h1 {
 
 .socialsection {
   width:100%;
-  background-color:red;
+  background-color:;
 }
 
 .tabletsection {
   width:100%;
-  background-color:green;
+  background-color:;
 }
 
 .mainpageright {
@@ -69,14 +95,28 @@ header h1 {
 
 .websection {
   width:100%;
-  background-color:brown;
+  background-color:;
+}
+
+section {
+  border-top:.75em solid black;
+  border-left:.1em solid black;
+  border-right:.1em solid black;
+  border-bottom:.1em solid black;
+  margin-bottom:1em;
 }
 
 aside {
   width: 18%;
   float:left;
-  background-color: pink;
+  background-color: ;
   margin-left:2%;
+  border-top:.75em solid black;
+  border-left:.1em solid black;
+  border-right:.1em solid black;
+  border-bottom:.1em solid black;
+  margin-bottom:.1em;
+  padding:.5em;
 }
 /* ==========================================================================
 
@@ -86,6 +126,7 @@ h2 {
   text-transform:uppercase;
   padding:0em;
   margin:0em;
+  border-bottom:.1em solid black;
 }
 
 h3 {
