@@ -10,14 +10,16 @@
   margin:0;
   padding:0;
 }
-.container {
+
+main {
   margin:0 auto 0 auto;
   padding: 0 15px 0 15px;
   width:90%;
   box-sizing: border-box;
+  background-color: #9eb8b0;
 }
 
-.container::after{
+main::after{
   display: table;
   content:"";
   clear:both;
@@ -82,6 +84,12 @@ width:30%;
   background-color:;
 }
 
+.socialsection h2 img {
+  display:inline-block;
+  float:right;
+  font-size: .5em;
+}
+
 .tabletsection {
   width:100%;
   background-color:;
@@ -104,6 +112,7 @@ section {
   border-right:.1em solid black;
   border-bottom:.1em solid black;
   margin-bottom:1em;
+  background-color: lightgray;
 }
 
 aside {
@@ -117,6 +126,13 @@ aside {
   border-bottom:.1em solid black;
   margin-bottom:.1em;
   padding:.5em;
+  background-color: lightgray;
+}
+
+aside h2 {
+font-size: 1em;
+  text-align: center;
+
 }
 /* ==========================================================================
 
@@ -126,7 +142,7 @@ h2 {
   text-transform:uppercase;
   padding:0em;
   margin:0em;
-  border-bottom:.1em solid black;
+  border-bottom:.05em solid black;
 }
 
 h3 {
