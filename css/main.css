@@ -4,11 +4,14 @@
 /* ==========================================================================
 
    ========================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Gilda+Display);
+@import url(https://fonts.googleapis.com/css?family=Istok+Web);
 
 * {
   box-sizing: border-box;
   margin:0;
   padding:0;
+  font-family: 'Istok Web', sans-serif;
 }
 
 main {
@@ -24,6 +27,8 @@ main::after{
   content:"";
   clear:both;
 }
+
+/*Header*/
 
 header {
   background-color: black;
@@ -43,6 +48,8 @@ header h1 {
   padding-bottom:.5em;
 }
 
+/*Main Page div*/
+
 .mainpage {
   width:80%;
   float:left;
@@ -54,6 +61,8 @@ header h1 {
   clear:both;
 }
 
+/*Video Section*/
+
 .videosection {
   width:100%;
   background-color:;
@@ -64,20 +73,24 @@ header h1 {
   width:70%;
 }
 
-.videocontent{
-float:left;
-width:30%;
-}
-
 .videosection::after{
   display: table;
   content:"";
   clear:both;
 }
+
+.videosection p {
+  padding-right:1em;
+}
+
+/*Mainpage Left Div*/
+
 .mainpageleft {
   width:49%;
   float:left;
 }
+
+/*Social Section*/
 
 .socialsection {
   width:100%;
@@ -90,10 +103,26 @@ width:30%;
   font-size: .5em;
 }
 
+/*Table Section*/
+
 .tabletsection {
   width:100%;
   background-color:;
 }
+
+.tabletsection img {
+  width:80%;
+  margin:0 auto;
+  display:block;
+}
+
+.tabletsection::after{
+  display: table;
+  content:"";
+  clear:both;
+}
+
+/*Mainpage Right Div*/
 
 .mainpageright {
   width:49%;
@@ -101,19 +130,19 @@ width:30%;
   margin-left: 2%;
 }
 
+/*Web Section*/
+
 .websection {
   width:100%;
   background-color:;
+
 }
 
-section {
-  border-top:.75em solid black;
-  border-left:.1em solid black;
-  border-right:.1em solid black;
-  border-bottom:.1em solid black;
-  margin-bottom:1em;
-  background-color: lightgray;
+.websection img {
+  padding-bottom:0;
 }
+
+/*Aside Section*/
 
 aside {
   width: 18%;
@@ -132,25 +161,67 @@ aside {
 aside h2 {
   font-size: 1em;
   text-align: center;
+}
 
+aside{
+  padding:0;
 }
 /* ==========================================================================
-
+Genaric Code
    ========================================================================== */
 h2 {
   font-size:2em;
   text-transform:uppercase;
-  padding:0em;
+  padding:.5em;
   margin:0em;
-  border-bottom:.05em solid black;
+  border-bottom:1px solid black;
+  font-family: 'Gilda Display', serif;
 }
 
 h3 {
   font-size: 1em;
-  padding:0em;
+  padding-top:1em;
   margin:0em;
 }
 
+h4 {
+  font-size: .85em;
+  text-align: center;
+  height:70px;
+  padding:1.25em;
+  border-bottom:1px solid black;
+  text-transform:uppercase;
+}
+
+img {
+  padding:1em;
+  width:100%;
+}
+
+section {
+  border-top:.75em solid black;
+  border-left:.1em solid black;
+  border-right:.1em solid black;
+  border-bottom:.1em solid black;
+  margin-bottom:1em;
+  background-color: lightgray;
+}
+
+.onweblink {
+  display:inline-block;
+  text-transform:uppercase;
+  font-weight: bold;
+  margin:.2em 0 .2em 0;
+  font-size: .75em;
+}
+
+.underlinelink {
+  border-bottom: solid .3em lightblue;
+}
+
+.content {
+  padding:1em;
+}
 /* ==========================================================================
 
    ========================================================================== */
