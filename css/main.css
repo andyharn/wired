@@ -234,5 +234,5 @@ section {
 }
 
 .bottomright {
-  align-content: stretch;
+  display:flex;
 }
