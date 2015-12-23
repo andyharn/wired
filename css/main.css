@@ -165,6 +165,59 @@ aside h2 {
 aside{
   padding:0;
 }
+
+.svg-icon {
+  width: 2em;
+  height: 2em;
+  margin:0 auto;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+.logocontain {
+  width:20%;
+  margin:.5em auto .5em auto;
+}
+
+aside .onweblink {
+  font-size: .5em;
+  text-align: center;
+  margin: 0 auto;
+  display:block;
+}
+
+aside .underlinelink {
+  font-size: .5em;
+  text-align: center;
+  margin: 0 auto;
+}
+
+aside img {
+  width: 2em;
+  height: 2em;
+  margin:0 auto;
+  padding:0;
+}
+
+.underline {
+  width:95%;
+  margin:0 auto .2em auto;
+  text-align: center;
+}
+
+.asidecontent {
+  display:block;
+}
+
 /* ==========================================================================
 Genaric Code
    ========================================================================== */
@@ -221,6 +274,7 @@ section {
 .content {
   padding:1em;
 }
+
 .mainpagebottom::after {
   display:table;
   content:"";
@@ -235,4 +289,13 @@ section {
 
 .bottomright {
   display:flex;
+}
+
+.maincontent {
+  display:flex;
+}
+
+aside {
+  display:flex;
+  margin-bottom:1em;
 }
